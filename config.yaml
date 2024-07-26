@@ -1,0 +1,12 @@
+isEnabled: true
+install:
+    command: yarn
+build:
+    command: echo $PROMPT_INJECTION_ADAPTER_TOKEN && yarn build
+    outputFolder: build
+settings:
+    type: website
+    projectName: hackathonBerichtvalidierung
+    security:
+        allowedGroups:
+            - br

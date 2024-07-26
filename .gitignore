@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build
+script-test/*.js
+firebase-debug.log
+.DS_Store
+*.log
+models.js
+longread.config.js
+.env
+
+#IDE
+.idea/*
+!.idea/jsonSchemas.xml
+.vscode/*
+!.vscode/settings.json
